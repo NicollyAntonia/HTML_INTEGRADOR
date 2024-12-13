@@ -1,0 +1,44 @@
+/* Estilo para o a pagina do feedback */
+#feedback-form-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 700px;
+  }
+  /* Estilo para o título  */
+  #feedback-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  /* Estilo para os grupos de campos do formulário */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  /* Estilo para os rótulos (labels) dos campos */
+  .form-group label {
+    font-weight: bold;
+  }
+  /* Estilo para  áreas de texto */
+  .form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff4f4;
+    border-radius: 5px;
+
+  }
+  
+/* Estilo para o botão de envio do formulário */
+  .btn-submit {
+    background-color: #990f0f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Estilo para o botão de envio ao passar o mouse sobre ele */
+  .btn-submit:hover {
+    background-color: #8b1616;
+  }
+  

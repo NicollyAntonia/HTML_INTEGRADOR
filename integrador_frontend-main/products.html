@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RZ - Artigos Esportivos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <script type="module" src="./scripts/products.js" defer></script>
+</head>
+<!-- Componenete que engloba  todo site -->
+
+<body>
+  <!-- Meu header (cabeçalho)-->
+  <header>
+    <div id="header-main">
+
+      <div class="container">
+        <div class="header-logo">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="Tools ferramentas" />
+          </a>
+
+        </div>
+
+
+        <div class="header-main-search-bar">
+          <i class="bi bi-search"></i>
+          <input type="text" name="search" id="search" placeholder="Qual a ferramenta que você precisa?" />
+        </div>
+
+
+        <div class="header-main-icons">
+          <a href="adm.html">
+            <i class="bi bi-person"></i>
+          </a>
+
+          <a href="checkout.html">
+            <i class="bi bi-cart"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+    <label for="menu-toggle" class="hamburguer">
+      <i class="bi bi-list"></i> Menu
+    </label>
+
+
+
+    <nav class="header-navbar">
+      <nav class="header-navbar">
+        <ul class="hamburguer-menu container">
+          <li>
+            <a href="./products.html">Todos os produtos</a>
+          </li>
+          <li>
+            <a href="./sobre.html">Sobre</a>
+          </li>
+          <li>
+            <a href="./contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="barra-container">
+        <div class="barra2"> </div>
+      </div>
+  </header>
+  <!-- Categoria produtos -->
+  <main class="main-content container">
+    <section class="main-category-area">
+      <div class="main-category-card">
+        <img src="./images/Acessórios.webp " alt="meias" class="category-img" />
+
+        <h4>Acessórios</h4>
+      </div>
+      <div class="main-category-card">
+        <img src="./images/tenis.webp" alt="calçados" class="category-img" />
+
+        <h4>Calçados</h4>
+      </div>
+      <div class="main-category-card">
+        <img src="./images/top.webp" alt="parafusadeiras" class="category-img" />
+        <h4>Roupas</h4>
+      </div>
+
+    </section>
+
+    <section class="section-product-grid">
+    </section>
+    </section>
+  </main>
+  <!-- Meu rodapé -->
+  <footer>
+    <div class="rights">
+      <div class="container">
+        <h5>
+          RZ - Artigos Esportivos
+        </h5>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

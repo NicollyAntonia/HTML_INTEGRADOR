@@ -1,0 +1,14 @@
+/* Importando css*/
+@import "normalize.css";
+@import "global.css";
+@import "header.css";
+@import "footer.css";
+@import "home.css";
+@import "products.css";
+@import "product.css";
+@import "checkout.css";
+@import "payment.css";
+@import "adm.css";
+@import "contato.css";
+@import "sobre.css";
+

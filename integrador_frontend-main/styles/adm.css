@@ -1,0 +1,23 @@
+/* Define o contêiner com um layout de grade (grid) */
+#orders{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: "col1 col2";
+    
+}
+/* Define que a grade terá duas colunas */
+.order-card, .order-card ul {
+    list-style: none;
+}
+  /* Remove o estilo de lista padrão (pontos ou números) */
+.order-card ul{
+    display: flex;
+    justify-content: space-between;
+}
+ /* Para o segundo <ul> dentro de .order-card, alteramos o comportamento da flexbox */
+.order-card ul:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+
+
